@@ -64,83 +64,206 @@ class _DashState extends State<Dash> {
               mainAxisSpacing: 10,
               crossAxisSpacing: 10,
               children: [
-                Container(
-                  margin: EdgeInsets.all(13),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage(
-                        'syllabus.png',
+                
+                Card(
+                  
+                  
+                  child: Column(
+                    
+                    children: [
+                      
+                      Expanded(
+                        
+                        child: Padding(
+                          
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/homework.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        
                       ),
-                    ),
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Homework',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(13),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/syllabus.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                         child: Text('Syllabus',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(13),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/mobile phone chat message notifications.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                         child: Text('Chat Option',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(13),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/tablet for papers.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Attendance sheets',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(15),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/mobile phone with person icon and interface.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Video lecture',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(15),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/Group 304.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                       child: Text('PYQ',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(15),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/Calender7 1.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Event Calender',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(15),
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 213, 210, 210),
-                    borderRadius: BorderRadius.circular(20),
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/User feedback.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                       child: Text('Feedback of Teacher',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
                   ),
                 ),
+                Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/delivery report.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Reports',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
+                  ),
+                ),
+                
+                 Card(
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Image.asset(
+                            'assets/results.png',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Results',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 16),),
+                      ),
+                    ],
+                  ),
+                ),
+                
               ],
             ),
           ),
